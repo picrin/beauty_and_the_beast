@@ -1,0 +1,80 @@
+
+\score{
+
+	{
+	\new Staff <<
+  \accidentalStyle modern
+>>
+		\key g \minor
+
+	    \numericTimeSignature
+	    \clef bass
+
+		\time 4/4
+			% This voice is furious and angry,
+		% it's ok to play it too loudly and with
+		% some squeaks. Hit each note as if it was
+		% steps of a large animal.
+
+		g,2 es,
+		d, g,
+		a, es,
+		d, a,
+		bes,8 a,8 bes,4 (bes,8) g,8 es c
+		bes,4. c16 bes,16 a,2
+		bes,16 a,16 bes,4. (bes,8) g,8 es f
+		d4 c bes, a,
+
+		g,2 es,
+		d, g,
+		a, es,
+		d, a,
+		bes,8 a,8 bes,4 (bes,8) g,8 es c
+		bes,4. c16 bes,16 a,2
+		bes,16 a,16 bes,4. (bes,8) g,8 es f
+		d2 r4 f'4
+		
+		d'2 (d'8) d'8 e' f'
+		g'8 (e'2) e'8 a' g'
+		f'8 (d'2) g'8 f' e'
+		d'8 (cis'2) cis'8 d' e'
+		f'8 (d'2) g'8 f' e'
+		d'8 (cis'2) cis'8 d' e'
+		d'8. cis'16 d'8. cis'16 d'4 r4 
+		
+		g,2 es,
+		d, g,
+		a, es,
+		d, a,
+		bes,8 a,8 bes,4 (bes,8) g,8 es c
+		bes,4. c16 bes,16 a,2
+		bes,16 a,16 bes,4. (bes,8) g,8 es f
+		d4 c bes, a,
+		
+		g,2 es,
+		d, g,
+		a, es,
+		d, a,
+		bes,8 a,8 bes,4 (bes,8) g,8 es c
+		bes,4. c16 bes,16 a,2
+		bes,16 a,16 bes,4. (bes,8) g,8 es f
+		d2 r4
+		
+		
+		
+		f'4 d'2 (d'8) d' cis' d' a2.
+		
+		f'4 d'2 (d'8) e' f' g' f'2.
+		
+		d' d' c' bes a a g f e
+		
+		e f cis d 
+		
+		d e f g g f g bes a f f e d g f g e f a a g f bes a g f e a f d c bes, a, g, f, e, d,
+
+		
+	}
+
+	\layout{}
+	\midi{}
+}
