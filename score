@@ -2,20 +2,16 @@
 \score{
 
 	{
-	\new Staff <<
-  \accidentalStyle modern
->>
+		\new Staff <<
+  			\accidentalStyle modern
+		>>
 		\key g \minor
 
 	    \numericTimeSignature
 	    \clef bass
 
 		\time 4/4
-			% This voice is furious and angry,
-		% it's ok to play it too loudly and with
-		% some squeaks. Hit each note as if it was
-		% steps of a large animal.
-
+		
 		g,2 es,
 		d, g,
 		a, es,
@@ -63,14 +59,41 @@
 		
 		
 		f'4 d'2 (d'8) d' cis' d' a2.
+		f'4 d'2 (d'8) d' e' f' g'2.
+		f'4 d'2 (d'8) d' c' bes a2 (a8)
 		
-		f'4 d'2 (d'8) e' f' g' f'2.
+		a8 g f
 		
-		d' d' c' bes a a g f e
+		e4. e8 f4. cis8
 		
-		e f cis d 
+		d2
 		
-		d e f g g f g bes a f f e d g f g e f a a g f bes a g f e a f d c bes, a, g, f, e, d,
+		\tuplet 3/2 {d4 (e f)}
+		\tuplet 3/2 {g (f g)}
+		
+		bes4. a8 f2
+		\tuplet 3/2 {f4 e d}
+		
+		\tuplet 3/2 {g4 f g}
+		
+		e4. f8 a2
+		
+		\tuplet 3/2 {a4 g f}
+		
+		\tuplet 3/2 {bes4 a g(}
+		
+		\tuplet 3/2 {g4) f4 e}
+		
+		\tuplet 3/2 {a f d(}
+
+		\tuplet 3/2 {d) c bes,}
+
+
+		 a,4. g,8
+		 
+		 f,4. e,8
+		 
+		 d,2 r2
 
 		
 	}
